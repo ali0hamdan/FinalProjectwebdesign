@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+    />
+    <link rel="stylesheet" href="login2.css" />
+    <title>Login/SignIn Form</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="signin-signup">
+        <form action="" class="sign-in-form">
+          <h2 class="title">Login</h2>
+          <div class="input-field">
+            <i class="ri-user-line"></i>
+            <input type="text" placeholder="Username" />
+          </div>
+          <div class="input-field">
+            <i class="ri-lock-line"></i>
+            <input type="password" placeholder="Password" />
+          </div>
+          <input type="submit" value="Login" class="btn" />
+          <p class="social-text">Sign in with social platform</p>
+          <div class="social-media">
+            <a href="https://www.instagram.com/alii_.hamdan/" class="social-icon">
+              <i class="ri-instagram-line"></i>
+            </a>
+            <a href="https://twitter.com/alihamdan" class="social-icon">
+              <i class="ri-twitter-line"></i>
+            </a>
+            <a href="https://web.whatsapp.com/send?phone=${81909932}" class="social-icon" id="whatsapp-btn1">
+              <i class="ri-whatsapp-line"></i>
+            </a>
+          </div>
+          <p class="account-text">
+            Don't have an account? <a href="#" id="sign-up-btn2">Sign up</a>
+          </p>
+        </form>
+        <form action="" class="sign-up-form">
+          <h2 class="title">Sign up</h2>
+          <div class="input-field">
+            <i class="ri-user-line"></i>
+            <input type="text" placeholder="Username" />
+          </div>
+          <div class="input-field">
+            <i class="ri-mail-line"></i>
+            <input type="text" placeholder="Email" />
+          </div>
+          <div class="input-field">
+            <i class="ri-lock-line"></i>
+            <input type="password" placeholder="Password" />
+          </div>
+          <input type="submit" value="Sign up" class="btn" />
+          <p class="social-text">Login with social platform</p>
+          <div class="social-media">
+            <a href="https://www.instagram.com/alii_.hamdan/" class="social-icon">
+              <i class="ri-instagram-line"></i>
+            </a>
+            <a href="https://twitter.com/alihamdan" class="social-icon">
+              <i class="ri-twitter-line"></i>
+            </a>
+            <a href="https://web.whatsapp.com/send?phone=${81909932}" class="social-icon" id="whatsapp-btn1">
+              <i class="ri-whatsapp-line"></i>
+            </a>
+          </div>
+          <p class="account-text">
+            Already have an account? <a href="#" id="sign-in-btn2">Login</a>
+          </p>
+        </form>
+      </div>
+      <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <div class="text-content">
+              <h3>Already have an account?</h3>
+              <p>
+                Create an account with us to access our exclusive selection of
+                high-performance vehicles. Our company is committed to providing
+                top-quality cars designed with precision engineering and
+                cutting-edge technology. Join us now to experience the thrill of
+                driving our high-performance vehicles.
+              </p>
+              <button class="btn" id="sign-in-btn">Login</button>
+            </div>
+            <div class="back-container">
+              <a href="home.html">
+                <button class="back-home">Back Home</button>
+              </a>
+            </div>
+          </div>
+          <img src="signin.svg" alt="" class="image" />
+        </div>
+        <div class="panel right-panel">
+          <div class="content">
+            <div class="text-content">
+              <h3>New to Brand?</h3>
+              <p>
+                Experience the latest in automotive technology for a safe and
+                comfortable ride, all while reducing your environmental impact.
+                Whether you prefer gasoline or electric power, we offer a wide
+                selection of cars to meet your needs. Join us in our mission for
+                sustainable transportation and a cleaner future. Login now to
+                explore our selection of vehicles.
+              </p>
+              <button class="btn" id="sign-up-btn">Sign up</button>
+            </div>
+            <div class="back-container">
+              <a href="home.html">
+                <button class="back-home">Back Home</button>
+              </a>
+            </div>
+          </div>
+          <img src="signup.svg" alt="" class="image" />
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
